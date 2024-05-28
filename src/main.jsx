@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
-// import "./App.css";
+import "./App.css";
 import Layout from "./components/Layout.jsx";
 import App from "./App.jsx";
 import Page01 from "./components/1.2_pages/Page01.jsx";
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
 		],
 	},
 	{
-		path: "/p01",
+		path: "/page01",
 		element: <Layout />,
 		children: [
 			{
@@ -31,7 +31,7 @@ const router = createBrowserRouter([
 		],
 	},
 	{
-		path: "/p02",
+		path: "/page02",
 		element: <Layout />,
 		children: [
 			{
@@ -41,7 +41,7 @@ const router = createBrowserRouter([
 		],
 	},
 	{
-		path: "/p03",
+		path: "/page03",
 		element: <Layout />,
 		children: [
 			{

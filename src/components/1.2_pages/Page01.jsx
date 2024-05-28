@@ -3,9 +3,9 @@
 
 export default function Page01() {
 	return (
-		<div>
+		<main>
 			<h1>This is page One</h1>
 			<p>Welcome to Page One!</p>
-		</div>
+		</main>
 	);
 }
